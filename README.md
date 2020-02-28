@@ -14,11 +14,11 @@ This project is low budget, and the tools are chosen as such. We are using a che
 
 # Acronyms
 
-**IDE** : **I**ntegrated **D**evelopment **E**nvironment: Compiler, loader and debugger all in one place. Gives developer the ability to see the values in memory, function calls on the call stack, variables in watch, local variables, etc. Also has a GUI to step thru code, set breakpoints and get and receive values through stdin and stdout respectively. TL;DR It's nice to have everything you need to code, compile, flash, debug & run within one program.
+**IDE** : **I**ntegrated **D**evelopment **E**nvironment
 
-**UART** : **U**niversal **A**synchronous **R**eceiver **T**ransmitter ~ serial communication [protocol](https://en.wikipedia.org/wiki/Universal_asynchronous_receiver-transmitter). 
+**UART** : **U**niversal **A**synchronous **R**eceiver **T**ransmitter 
 
-**EVK** : **EV**aluation **K**it 
+**EVK** : **EV**aluation **K**it
 
 **GPIO** : **G**eneral **P**urpose **I**nput **O**utput 
 

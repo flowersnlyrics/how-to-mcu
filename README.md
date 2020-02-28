@@ -12,11 +12,6 @@ This project is low budget, and the tools are chosen as such. We are using a che
 ### Hardware
 [STM32F411RE Nucleo](https://www.st.com/en/evaluation-tools/nucleo-f411re.html) board: This breaks out most of the GPIO on the STM32F411RE processor in order to analyze the logic as well input signals to the processor. These GPIO are mostly broken out on the connectors, but are also added to certain parts of the Nucleo board, such as the blue button! 
 
-# Projects' Description
-Relevant links and descriptions to each project in this repository.
-### 1. UART Tutorial 
-
-
 # Gotchas
 This section is for troubleshooting  unexpected hiccups with your project(s).
 

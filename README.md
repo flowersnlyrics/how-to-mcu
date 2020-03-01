@@ -11,7 +11,8 @@ This project is low budget, and the tools are chosen as such. We are using a che
 * [Git](https://git-scm.com/downloads): In order to clone this repo, branch, commit, merge, etc you need a local copy of git. 
 
 ### Hardware
-[STM32F411RE Nucleo](https://www.st.com/en/evaluation-tools/nucleo-f411re.html) board: This breaks out most of the GPIO on the STM32F411RE processor in order to analyze the logic as well input signals to the processor. These GPIO are mostly broken out on the connectors, but are also added to certain parts of the Nucleo board, such as the blue button! 
+* [STM32F411RE Nucleo](https://www.st.com/en/evaluation-tools/nucleo-f411re.html) board: This breaks out most of the GPIO on the STM32F411RE processor in order to analyze the logic as well input signals to the processor. These GPIO are mostly broken out on the connectors, but are also added to certain parts of the Nucleo board, such as the blue button! 
+* [Mini-USB Cable](https://www.amazon.com/AmazonBasics-USB-2-0-Cable-Male/dp/B00NH13S44): This cable is used to connect the nucleo EVK to your computer, and doesn't come with the EVK. Note that if your computer doesn't have a USB 2.0 port you will also need some sort of adapter. 
 
 # Gotchas
 This section is for troubleshooting  unexpected hiccups with your project(s).

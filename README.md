@@ -8,7 +8,7 @@ This project is low budget, and the tools are chosen as such. We are using a che
 
 * [System Workbench](https://www.openstm32.org/HomePage) : Note that you have to make an account in order to download System Workbench. System Workbench uses the Eclipse build environment. 
 * [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html) : Terminal emulator program 
-* [Git](https://git-scm.com/downloads)
+* [Git](https://git-scm.com/downloads): In order to clone this repo, branch, commit, merge, etc you need a local copy of git. 
 
 ### Hardware
 [STM32F411RE Nucleo](https://www.st.com/en/evaluation-tools/nucleo-f411re.html) board: This breaks out most of the GPIO on the STM32F411RE processor in order to analyze the logic as well input signals to the processor. These GPIO are mostly broken out on the connectors, but are also added to certain parts of the Nucleo board, such as the blue button! 

@@ -1,7 +1,7 @@
 [PreviousGenFiles]
-HeaderPath=C:/Users/jennifer_pc/Documents/git_checkouts/how-to-stm32/uart_printf/Inc
+HeaderPath=C:/Users/jennifer_pc/Documents/git_checkouts/how-to-mcu/1_uart_printf/Inc
 HeaderFiles=gpio.h;usart.h;stm32f4xx_it.h;stm32f4xx_hal_conf.h;main.h;
-SourcePath=C:/Users/jennifer_pc/Documents/git_checkouts/how-to-stm32/uart_printf/Src
+SourcePath=C:/Users/jennifer_pc/Documents/git_checkouts/how-to-mcu/1_uart_printf/Src
 SourceFiles=gpio.c;usart.c;stm32f4xx_it.c;stm32f4xx_hal_msp.c;main.c;
 
 [PreviousLibFiles]

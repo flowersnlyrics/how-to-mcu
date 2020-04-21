@@ -20,9 +20,9 @@ This section is for troubleshooting  unexpected hiccups with your project(s).
 ### System Workbench Debug Configuration
 If you get an error message when trying to Debug or load code onto the Nucleo board make sure that your debug configuration is setup correctly.
 1. Access the Debug Configurations under the "Run --> Debug Configurations..."
-![Run_debug_cfg](img/run_debug_cfg.png)
+![Run_debug_cfg](img/1_run_debug_cfg.png)
 2. Make sure your debug configuration matches the setup below. **NOTE**: By default STM32Cube did not generate a *.cfg* file for my project. This file tells *OpenOCD* how to debug your project for the specific board you are using. I had to import one that someone graciously uploaded to some far-off forum. '
-![debug_cfg](img/debug_cfg.png)
+![debug_cfg](img/1_debug_cfg.png)
 
 # Acronyms
 

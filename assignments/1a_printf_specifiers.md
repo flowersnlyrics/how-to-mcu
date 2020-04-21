@@ -31,6 +31,6 @@ Printf is an important fundamental tool for debugging. In this assignment you ca
 10. Print four random sentences, each on it's own line. Start every other sentence with a tab.
 
 # References
-[MIT printf tips](http://web.mit.edu/10.001/Web/Course_Notes/c_Notes/tips_printf.html)
-[Tutorial on printf specifiers](https://alvinalexander.com/programming/printf-format-cheat-sheet/)
-[Printf formatting for dummies](https://www.dummies.com/programming/c/how-to-format-with-printf-in-c-programming/)
+*  [MIT printf tips](http://web.mit.edu/10.001/Web/Course_Notes/c_Notes/tips_printf.html)
+*  [Tutorial on printf specifiers](https://alvinalexander.com/programming/printf-format-cheat-sheet/)
+*  [Printf formatting for dummies](https://www.dummies.com/programming/c/how-to-format-with-printf-in-c-programming/)

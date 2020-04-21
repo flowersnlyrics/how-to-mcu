@@ -9,7 +9,7 @@ This project will forward stdout and stdin from the System Workbench IDE console
 3. Open a PuTTY window to see the output of the UART.  
 ![putty_config](../img/1_putty_config.png) 
 4. See Output!  
-![putty_output](../img/1_putty_output.png)  
+![putty_output](../img/1_putty_output.PNG)  
 
 # References
 [STM32 System Workbench UART Printf project](https://github.com/STMicroelectronics/STM32CubeF4/tree/master/Projects/STM32F411RE-Nucleo/Examples/UART/UART_Printf/SW4STM32) : Even though this project's build configuration didn't work, I used their code to forward the printf to the virtual COM Port supplied by the nucleo.

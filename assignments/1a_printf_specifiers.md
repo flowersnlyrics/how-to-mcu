@@ -26,7 +26,7 @@ Printf is an important fundamental tool for debugging. In this assignment you ca
 5. Print the 5th letter in your name by indexing a string of your name (learn how to index one character of a string).  
 6. Print the number 0 - 10 with a carriage return.
 7. Print `pi` out *only* 9 decimal places, using this as float argument --> `3.141592653589793238462643`
-8. Describe the difference between `strlen` and `sizeof`.
+8. Describe the difference between `strlen` and `sizeof`. Write code to show the difference and put it here?
 9. Why is the null terminating character `\0` important? What is it? Use it to print a string and the length of the string you printed. 
 10. Print four random sentences, each on it's own line. Start every other sentence with a tab.
 

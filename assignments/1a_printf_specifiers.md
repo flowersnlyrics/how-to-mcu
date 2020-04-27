@@ -28,7 +28,7 @@ Printf is an important fundamental tool for debugging. In this assignment you ca
 2. Print `2.123456` with a minimum width of 3.
 2. Print `5` zero-padded with 3 zeros. 
 3. Print `12800` in hex. 
-4. Print your name.
+4. Print your name using the string format specifier `%s`.
 5. Print the 5th letter in your name by indexing a string of your name (learn how to index one character of a string).  
 6. Print the number 0 - 10 with a carriage return.
 7. Edit the below `printf` to *only* print out 9 decimal places.

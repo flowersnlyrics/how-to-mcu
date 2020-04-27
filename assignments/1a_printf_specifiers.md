@@ -1,7 +1,7 @@
 
 
 # Printf Specifiers
-**RELEASED** TUE APR 21ST 2020 
+**RELEASED** TUE APR 21ST 2020  
 **DUE DATE** WED APR 29TH 2020  
 
 Printf is an important fundamental tool for debugging. In this assignment you can use the `1_uart_printf` project to complete the following problem sets. Before the problem sets, review the fundamentals. Add to this markdown file if you want, I started it for you with a quick summary but you'll need more tools to finish the assignment that you have to Google. 

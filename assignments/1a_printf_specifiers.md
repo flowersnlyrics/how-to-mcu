@@ -30,7 +30,7 @@ Printf is an important fundamental tool for debugging. In this assignment you ca
 3. Print `12800` in hex. 
 4. Print your name using the string format specifier `%s`.
 5. Print the 5th letter in your name by indexing a string of your name (learn how to index one character of a string).  
-6. Print the number 0 - 10 with a carriage return.
+6. Print the numbers `0 - 10` each with a carriage return at the end.
 7. Edit the below `printf` to *only* print out 9 decimal places.
    >```c
    >printf("this is Pi to 9 decimal places: %f \r\n", 3.141592653589793238462643);
@@ -38,6 +38,7 @@ Printf is an important fundamental tool for debugging. In this assignment you ca
 8. Describe the difference between `strlen` and `sizeof`. Write code to show the difference and put it here?
 9. Why is the null terminating character `\0` important? What is it? Use it to print a string and the length of the string you printed. 
 10. Print four random sentences, each on it's own line. Start every other sentence with a tab.
+11. What are `UTF-8`? Why is it needed?
 
 # References
 *  [MIT printf tips](http://web.mit.edu/10.001/Web/Course_Notes/c_Notes/tips_printf.html)

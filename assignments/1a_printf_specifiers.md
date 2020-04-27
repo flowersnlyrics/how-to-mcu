@@ -26,7 +26,7 @@ Printf is an important fundamental tool for debugging. In this assignment you ca
 1. What is the format specifier for printing a number in scientific notation? Print 1000 in scientific notation. 
 1. Print `-10` with a minimum width of 3.
 2. Print `2.123456` with a minimum width of 3.
-2. Print 5 zero-padded with 3 zeros. 
+2. Print `5` zero-padded with 3 zeros. 
 3. Print `12800` in hex. 
 4. Print your name.
 5. Print the 5th letter in your name by indexing a string of your name (learn how to index one character of a string).  

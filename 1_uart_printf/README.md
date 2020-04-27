@@ -1,5 +1,5 @@
 # Overview 
-This project will forward stdout and stdin from the System Workbench IDE console to the MCU's UART. Access to the MCU's UART interface will be through a terminal emulator program called PuTTY. 
+This project will forward stdout and stdin from the System Workbench IDE console to the MCU's UART. Access to the MCU's UART interface will be through a terminal emulator program called PuTTY. The Nucleo EVK has an FTDI chip that creates a virtual COM port which what we access through PuTTY. The UART interface on the STM32 is accessed through this Virtual COM port thru the FTDI chip on the Nucleo EVK.
 
 # Procedure
 1. Go to the Device Manager to find the COM port where the UART will be accessed from. The COM port number you need is in blue. In this picture it is COM5.  

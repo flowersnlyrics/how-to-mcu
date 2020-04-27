@@ -38,7 +38,7 @@ Printf is an important fundamental tool for debugging. In this assignment you ca
 8. Describe the difference between `strlen` and `sizeof`. Write code to show the difference and put it here?
 9. Why is the null terminating character `\0` important? What is it? Use it to print a string and the length of the string you printed. 
 10. Print four random sentences, each on it's own line. Start every other sentence with a tab.
-11. What are `UTF-8`? Why is it needed?
+11. What is `UTF-8`? Why is it needed?
 
 # References
 *  [MIT printf tips](http://web.mit.edu/10.001/Web/Course_Notes/c_Notes/tips_printf.html)

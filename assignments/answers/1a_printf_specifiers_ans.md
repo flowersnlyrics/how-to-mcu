@@ -66,7 +66,33 @@ Remember that all arrays in C are **zero-based**. The printf format specifier fo
 >```
 
 ## Conceptual learning (not typed up  yet)
-10. Describe the difference between strlen and sizeof. Write code to show the difference and put it here?
-11. Why is the null terminating character \0 important? What is it? Use it to print a string and the length of the string you printed.
-Print four random sentences, each on it's own line. Start every other sentence with a tab.
-12. What is UTF-8? Why is it needed?
+10. Why is the null terminating character `\0` important? What is it? Use it to print a string by manually typing out a character array and then using `%s`.  
+> The null terminating character `\0` is used to end a string. If you are manually constructing a string you should always use the null terminating character at the end. There are many cases where the null terminating character will be added for you, but it's important to be cognizant of its presence. The null terminating character is so important because it's a delimiter for functions that manipulate strings. Also important to note: the size of a string in bytes is not just the number of characters, it is the number of characters + 1 byte for the null terminating character. If not accounted for this has the potential to cause a buffer overflow. Buffer overflows in C can get tricky to debug and often cause segmentation faults... especially with strings. 
+>```c
+>char my_array[] = {'h', 'e', 'y', '\0'} ; // put your string in this array 
+>printf("My string: %s\r\n", my_array );
+>```
+11. Describe the difference between `strlen` and `sizeof`. Write code to show the difference and put it here?
+> `strlen` tells you the number of characters in a string **NOT** including the null terminating character. 
+> `sizeof` tells you the number of bytes in any data type. Of particular note for this lesson, `sizeof` a string will return the number of characters of in string plus one. The plus one being for (you guessed it) the null terminating character. 
+>```c
+>char name[] = "Jennifer"; 
+>printf("strlen my name is %lu\n", strlen(name)); 
+>printf("sizeof my name is %lu\n", sizeof(name)); 
+>```
+12. Print four random sentences, each on it's own line. Start every other sentence with a tab.
+>```c
+>printf("\tmy first sentence\r\n"); 
+>printf("my second sentence\r\n"); 
+>printf("\tmy third sentence\r\n");
+>printf("my fourth sentence\r\n");
+>```
+> Also acceptable is 
+>```c
+>printf("my first sentence\r\n"); 
+>printf("\tmy second sentence\r\n"); 
+>printf("my third sentence\r\n");
+>printf("\tmy fourth sentence\r\n");
+>```
+13. What is UTF-8? Why is it needed?
+> TODO

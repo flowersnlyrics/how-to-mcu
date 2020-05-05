@@ -1,5 +1,7 @@
 # Le answers
+You shouldn't look at these  until you complete the lesson 
 
+## DIY Learning 
 1. What is the format specifier for printing a number in scientific notation? Print 1000 in scientific notation.
 The format specifier for printing a number in scientific notation is `%E`
 >```c
@@ -28,24 +30,24 @@ The hex format specifier for printf is `%x`.
 >printf("%x\r\n", 12800); 
 >```
 6. Print your name using the string format specifier %s.
->```
+>```c
 >printf("%s\r\n", "Jennifer"); 
 >```
 7. Print the 5th letter in your name by indexing a string of your name (learn how to index one character of a string).
 Remember that all arrays in C are **zero-based**. The printf format specifier for a character is `%c`. 
->```
+>```c
 >char my_name[] = "Jennifer";
 >printf("%c\r\n", my_name[4]); 
 >```
 8. Print the numbers 0 - 10 each with a carriage return escape code and a new line escape code at the end of each number.
-```c
+>```c
 >for(int i = 0; i < 11; i++)
 >{
 >    printf("%d\r\n", i);
 >}
-```
+>```
 > Also acceptable, but less sophisticated is this answer.  We're going to go over for loops and while loops in a later lesson so don't worry too much about it.  
-```c
+>```c
 >printf("%d\r\n", 0);
 >printf("%d\r\n", 1);
 >printf("%d\r\n", 2);
@@ -57,11 +59,14 @@ Remember that all arrays in C are **zero-based**. The printf format specifier fo
 >printf("%d\r\n", 8);
 >printf("%d\r\n", 9);
 >printf("%d\r\n", 10);
-```
+>```
+9. Edit the below printf to only print out 9 decimal places. 
+>```c
+>printf("this is Pi to 9 decimal places: %.9f \r\n", 3.141592653589793238462643);
+>```
 
-Edit the below printf to only print out 9 decimal places.
-printf("this is Pi to 9 decimal places: %f \r\n", 3.141592653589793238462643);
-Describe the difference between strlen and sizeof. Write code to show the difference and put it here?
-Why is the null terminating character \0 important? What is it? Use it to print a string and the length of the string you printed.
+## Conceptual learning (not typed up  yet)
+10. Describe the difference between strlen and sizeof. Write code to show the difference and put it here?
+11. Why is the null terminating character \0 important? What is it? Use it to print a string and the length of the string you printed.
 Print four random sentences, each on it's own line. Start every other sentence with a tab.
-What is UTF-8? Why is it needed?
+12. What is UTF-8? Why is it needed?

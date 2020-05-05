@@ -31,7 +31,7 @@ Printf is an important fundamental tool for debugging. In this assignment you ca
 3. Print `12800` in hex. 
 4. Print your name using the string format specifier `%s`.
 5. Print the 5th letter in your name by indexing a string of your name (learn how to index one character of a string).  
-8. Print the numbers 0 - 10 each with a carriage return escape code and a new line escape code at the end of each number.
+8. Print the numbers 0 - 10 each with a carriage return escape code and a new line escape code at the end of each number. *Challenge* Try doing this with a for loop. 
 7. Edit the below `printf` to *only* print out 9 decimal places.
    >```c
    >printf("this is Pi to 9 decimal places: %f \r\n", 3.141592653589793238462643);

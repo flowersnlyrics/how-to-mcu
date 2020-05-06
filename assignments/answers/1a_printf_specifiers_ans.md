@@ -37,8 +37,8 @@ The hex format specifier for printf is `%x`.
 >```c
 >printf("%s\r\n", "Jennifer"); 
 >```
-7. Print the 5th letter in your name by indexing a string of your name (learn how to index one character of a string).
-Remember that all arrays in C are **zero-based**. The printf format specifier for a character is `%c`. 
+7. Print the 5th letter in your name by indexing a string of your name (learn how to index one character of a string).  
+> Remember that all arrays in C are **zero-based**. The printf format specifier for a character is `%c`. 
 >```c
 >char my_name[] = "Jennifer";
 >printf("%c\r\n", my_name[4]); 
@@ -69,16 +69,16 @@ Remember that all arrays in C are **zero-based**. The printf format specifier fo
 >printf("this is Pi to 9 decimal places: %.9f \r\n", 3.141592653589793238462643);
 >```
 
-## Conceptual learning (not typed up  yet)
+## Conceptual learning 
 10. Why is the null terminating character `\0` important? What is it? Use it to print a string by manually typing out a character array and then using `%s`.  
-> The null terminating character `\0` is used to end a string. If you are manually constructing a string you should always use the null terminating character at the end. There are many cases where the null terminating character will be added for you, but it's important to be cognizant of its presence. The null terminating character is so important because it's a delimiter for functions that manipulate strings. Also important to note: the size of a string in bytes is not just the number of characters, it is the number of characters + 1 byte for the null terminating character. If not accounted for this has the potential to cause a buffer overflow. Buffer overflows in C can get tricky to debug and often cause segmentation faults... especially with strings. 
+> The null terminating character `\0` is used to end a string. The null terminating character is so important because it's a delimiter for functions that manipulate strings. The size of a string in bytes is not just the number of characters, it is the number of characters + 1 byte for the null terminating character. If not accounted for this has the potential to cause a buffer overflow. 
 >```c
 >char my_array[] = {'h', 'e', 'y', '\0'} ; // put your string in this array 
 >printf("My string: %s\r\n", my_array );
 >```
 11. Describe the difference between `strlen` and `sizeof`. Write code to show the difference and put it here?
 > `strlen` tells you the number of characters in a string **NOT** including the null terminating character. 
-> `sizeof` tells you the number of bytes in any data type. Of particular note for this lesson, `sizeof` a string will return the number of characters of in string plus one. The plus one being for (you guessed it) the null terminating character. 
+> `sizeof` tells you the number of bytes in *any data type*. Of particular note for this lesson, `sizeof` a string will return the number of characters of in string *plus one*. The plus one being for (you guessed it) the null terminating character. 
 >```c
 >char name[] = "Jennifer"; 
 >printf("strlen my name is %lu\n", strlen(name)); 
@@ -99,4 +99,4 @@ Remember that all arrays in C are **zero-based**. The printf format specifier fo
 >printf("\tmy fourth sentence\r\n");
 >```
 13. What is UTF-8? Why is it needed?
-> TODO
+> UTF-8 is an encoding scheme needed to formalize character encoding across several different languages. ASCII encoding doesn't cut it since the code can only go up to 127. 

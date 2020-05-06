@@ -3,9 +3,13 @@ You shouldn't look at these  until you complete the lesson
 
 ## DIY Learning 
 1. What is the format specifier for printing a number in scientific notation? Print 1000 in scientific notation.
-The format specifier for printing a number in scientific notation is `%E`
+The format specifier for printing a number in scientific notation is `%E` or `%e`
 >```c
 >printf("%E\r\n", 1000.0);
+>```
+> Also acceptable answer...
+>```c
+>printf("%e\r\n", 1000.0);
 >```
 2. Print the number -10
 >```c

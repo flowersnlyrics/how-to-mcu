@@ -30,14 +30,14 @@
   >```c
   >printf("The answer to Number 4: %04d\n",5);
   >```
-  Output: ` printf("The answer to Number 4: %04d\n",c);`  
+  Output: `The answer to Number 4: 0005`  
     
 5. Print `12800` in hex.  
   **Answer:**
   >```c
-  > printf("The answer to Number 4: %04d\n",5);
+  >
   >```
-  Output: ` printf("The answer to Number 4: %04d\n",c);`  
+  Output: ``  
     
 6. Print your name using the string format specifier `%s`.  
   **Answer:**

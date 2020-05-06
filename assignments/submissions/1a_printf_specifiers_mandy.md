@@ -1,4 +1,4 @@
-# Printf Specifiers - Submission 1
+# Printf Specifiers - Submission 2
 **DATE** WED MAY 5TH 2020
 
 # Answers
@@ -7,9 +7,9 @@
   Print 1000 in scientific notation.  
   **Answer:**
   >```c
-  >printf("The answer to Number 1: %e\n",123456.789);
+  >printf("The answer to Number 1: %e\n",1000);
   >```
-  Output: `The answer to Number 1: 1.234568e+05`  
+  Output: `The answer to Number 1: 1.000000e+03`  
     
 2. Print the number -10.  
   **Answer:**
@@ -21,7 +21,7 @@
 3. Print `2.123456` with a minimum width of 3.  
   **Answer:**
   >```c
-  >printf("The answer to Number 3: %3.6f\n",2.123456);
+  >printf("The answer to Number 3: %3f\n",2.123456);
   >```
   Output: `The answer to Number 3: 2.123456`  
     
@@ -35,9 +35,9 @@
 5. Print `12800` in hex.  
   **Answer:**
   >```c
-  >
+  >printf("The answer to Number 5: %x\n",12800);
   >```
-  Output: ``  
+  Output: `The answer to Number 5: 3200`  
     
 6. Print your name using the string format specifier `%s`.  
   **Answer:**

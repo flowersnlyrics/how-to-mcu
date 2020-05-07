@@ -25,7 +25,7 @@ The format specifier for printing a number in scientific notation is `%E` or `%e
 >```
 4. Print 5 zero-padded with 3 zeros.
 >```c
->printf("%05d\r\n", 3);
+>printf("%03d\r\n", 3);
 >```
 5. Print 12800 in hex.
 There are two ways to represent hex numbers in normal text. You can write it with a `0x` at the beginning or you can write it with an `h` at the end. So the hex number `3200` can be written as `0x3200` and `3200h`. The number `12800` in hex is `0x3200`.  

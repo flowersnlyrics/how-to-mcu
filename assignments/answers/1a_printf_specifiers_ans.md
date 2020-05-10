@@ -1,7 +1,4 @@
-# Le answers ~ Lesson 1A Printf Specifiers
-You shouldn't look at these  until you complete the lesson 
-
-## DIY Learning 
+# DIY Learning 
 1. What is the format specifier for printing a number in scientific notation? Print 1000 in scientific notation.
 The format specifier for printing a number in scientific notation is `%E` or `%e`
 >```c
@@ -69,7 +66,7 @@ The hex format specifier for printf is `%x`.
 >printf("this is Pi to 9 decimal places: %.9f \r\n", 3.141592653589793238462643);
 >```
 
-## Conceptual learning 
+# Conceptual learning 
 10. Why is the null terminating character `\0` important? What is it? Use it to print a string by manually typing out a character array and then using `%s`.  
 > The null terminating character `\0` is used to end a string. The null terminating character is so important because it's a delimiter for functions that manipulate strings. The size of a string in bytes is not just the number of characters, it is the number of characters + 1 byte for the null terminating character. If not accounted for this has the potential to cause a buffer overflow. 
 >```c
@@ -100,3 +97,16 @@ The hex format specifier for printf is `%x`.
 >```
 13. What is UTF-8? Why is it needed?
 > UTF-8 is an encoding scheme needed to formalize character encoding across several different languages. ASCII encoding doesn't cut it since the code can only go up to 127. 
+
+# Follow-up Questions and Answers 
+1. You used %i to print -10 and I used %d. Why should you use one over the other?
+> They are the same when used for output. It can get tricky when you use them for input. Here's a [stack overflow post](https://stackoverflow.com/questions/1893490/what-is-the-difference-between-conversion-specifiers-i-and-d-in-formatted-io-f) that explains the difference well. We can figure it out later when we use functions in conjunction with `stdin`: right now we're just using `stdout` functions because that's they're easier and used more often.
+2. For number 3, the question was to print 2.123456 with a minimum width of 3.
+Your answer says - printf("%1.2f\r\n", 2.123456); - but that puts out 2.12. Isn't the 3 the minimum width? not the maximum? also doesn't the decimal count as part of the width? The other acceptable answer - printf("%.3f\r\n", 2.123456); - brings you out three decimal places, but that is different than the width, isn't it?
+> Yeah this question is annoyingly worded (my bad). I guess I meant significant figures but I should've just said that. Your answer is fine :) 
+3. For number 4, doesn't printf("%05d\r\n", 3); pad it with 4 zeros?
+> Okay, this intricacy is important to understand. When you specify `05d` you are saying make sure the number is `5` digits long, and if it's not 5 digits long, pad it with zeros to make up the difference in digit width. So yes it zero-pads the number `3` with four zeros, but it will zero-pad the number `12` with three zeros (`00012`), the number `498` with two zeros (`00498`), the number `1234` with one zero (`01234`) and number 5 digits or more will not be zero padded because it meets that minimum width. 
+4. So UTF-8 basically normalizes an encoding scheme so that it can be understood by different programming languages?
+> Yup. UTF-8 can represent any Unicode character. ASCII is 7-bit so it can only represent 127 characters.
+5. While loops and for loops seem to do generally the same thing. Why would you use one over the other?
+> A for loop is typically used when you know the number of iterations of a certain action in advance. Like if you wanted to print something `x` number of times (`for(int i=0; i<10;i++)`). A while loop is used when you're waiting on a condition but you're not sure how many iterations of the loop it will take, or how long it will take, to satisfy that condition. For example, you could be waiting for a person to press a button (`while(!button_pressed)`). You don't know how many times we'll have to check before the person presses the button. 

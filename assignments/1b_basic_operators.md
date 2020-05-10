@@ -71,8 +71,8 @@ static void get_float(char* name, float* buff)
     printf("%s is %f\r\n", name, *buff);
 }
 ```
-1. Don't let the user enter `0`. Keep asking user for a number until the number they enter is not `0`. Use this logic for the rest of the assignment.
-After user enters their numbers...
+1. Don't let the user enter `0`. Keep asking user for a number until the number they enter is not `0`. Use this logic for the rest of the assignment.  
+*After user enters their numbers...*
 1. Check if `x` is equal to `y`. Print `x equals y` if it returns true. Print `x does not equal y` if it's false. 
 2. Take the modulus of `x` and `y` and print the result. 
 3. Divide, add, multiply and subtract `a` and `b` and print all the results in that order. 

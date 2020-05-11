@@ -10,7 +10,7 @@ Used to compare to stuff!
 |------------------|-------------------------------|----|
 | `&&` | The AND operator. Works like an [AND gate](https://en.wikipedia.org/wiki/AND_gate). |  `x && y`, check if `x` and `y` are *both* true. Also, see truth table for AND gate. |
 | `\|\|` | The OR operator. Works like an [OR gate](https://en.wikipedia.org/wiki/OR_gate). |  `x \|\| y`, check if *either* `x` or `y` is true.  Also, see truth table for OR gate. |
-| `!`  | The NOT operator. Takes the opposite of its operand. | !true = false |
+| `!`  | The NOT operator. Takes the opposite of its operand. Works like an inverter.  | !true = false |
 
 ### Arithmetic Operators 
 Used to do math. Other operators include `+`, `-`, `=` and `/`.

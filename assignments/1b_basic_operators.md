@@ -1,4 +1,4 @@
-# Operators
+# Basic Operators
 **RELEASED** SUN MAY 10TH 2020   
 **DUE DATE** WED MAY 13TH 2020  
 

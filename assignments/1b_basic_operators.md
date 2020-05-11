@@ -2,7 +2,7 @@
 **RELEASED** SUN MAY 10TH 2020   
 **DUE DATE** WED MAY 13TH 2020  
 
-I'm not giving as much time for lesson because it should be easy. There are a few tricky operators such as `%`, `||` and `&&` that we don't see in everyday arithmetic or sixth grade algebra but once you do a couple problems it should become pretty easy and be a powerful tool in our kit for later, harder lessons. Again, not all information you need is here. You should Google:) 
+I'm not giving as much time for lesson because it should be easy. There are a few tricky operators such as `%`, `||` and `&&` that we don't see in everyday arithmetic or sixth grade algebra but once you do a couple problems it should become pretty easy and be a powerful tool in our kit for later, harder lessons. Again, not all information you need is here. You should Google:) You can use `1_uart_printf` project, but I recommend using an [online C compiler](https://www.onlinegdb.com/online_c_compiler) as it's quicker. 
 
 ### Logical Operators
 Used to compare to stuff!

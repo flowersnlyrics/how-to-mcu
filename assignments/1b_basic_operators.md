@@ -26,7 +26,7 @@ Used to do math. Other operators include `+`, `-`, `=` and `/`.
 | `/=` | Take a number, divide it by 5 and set the result equal to the first number |  `x /= 5` is the same as saying x = x / 5 |
 
 ### Relational Operators
-These are pretty much the same from whatever algebra class you took minus a few I've outlined below. Other operators include `<`, `>`, `>=`, and `<=`?
+These are pretty much the same from whatever algebra class you took minus a few I've outlined below. Other operators include `<`, `>`, `>=`, and `<=`.
 | operator | description | example |
 |------------------|-------------------------------|----|
 | `==` | Check if two numbers are equal to each other | `1 == 1` is true, `1 == 0` is false |

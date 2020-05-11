@@ -33,7 +33,7 @@ These are pretty much the same from whatever algebra class you took minus a few 
 | `!=` | Check if two numbers are not equal to each other | `1 != 0` is true, `1 != 1` is false |
 
 # Questions
-For all questions: add and edit the code below. For submission show the outputs of several different sets of numbers to prove that your code is robust.
+For all questions: add and edit the code below. For submission show the outputs of several different sets of numbers to prove that your code is robust. Do not change the functions `get_int` or `get_float`, use them as I've used them below. We haven't gone over `scanf` and `stdin` yet which is why I got the lesson started. 
 ```c
 #include <stdio.h>
 

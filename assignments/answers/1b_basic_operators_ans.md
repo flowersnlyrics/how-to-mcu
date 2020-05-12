@@ -21,25 +21,25 @@ int main()
     get_float_no_zero("b", &b); 
     printf("\r\n");
     
-    // QUESTION 1
-    printf("QUESTION 1 RESULT\r\n%s\r\n\r\n", x == y ? "x equals y" : "x does not equal y"); 
-    
     // QUESTION 2
-    printf("QUESTION 2 RESULT\r\n%d\r\n\r\n", x % y); 
+    printf("QUESTION 2 RESULT\r\n%s\r\n\r\n", x == y ? "x equals y" : "x does not equal y"); 
     
     // QUESTION 3
-    printf("QUESTION 3 RESULT\r\na/b= %f\ta+b= %f\ta*b=%f\ta-b=%f\r\n\r\n", a/b, a+b, a*b, a-b); 
+    printf("QUESTION 3 RESULT\r\n%d\r\n\r\n", x % y); 
     
     // QUESTION 4
-    printf("QUESTION 4 RESULT\r\n%s\r\n\r\n", ( (a > b) && (x < y) ) ? 
-                 "Amanda is cool" : "Jennifer is cool"); 
+    printf("QUESTION 4 RESULT\r\na/b= %f\ta+b= %f\ta*b=%f\ta-b=%f\r\n\r\n", a/b, a+b, a*b, a-b); 
     
     // QUESTION 5
-    printf("QUESTION 5 RESULT\r\n%s\r\n\r\n", ( (a == b) || (x == y) ) ? 
+    printf("QUESTION 5 RESULT\r\n%s\r\n\r\n", ( (a > b) && (x < y) ) ? 
+                 "Amanda is cool" : "Jennifer is cool"); 
+    
+    // QUESTION 6
+    printf("QUESTION 6 RESULT\r\n%s\r\n\r\n", ( (a == b) || (x == y) ) ? 
                  "ah, a set of equal numbers" : "alas, no numbers are equal"); 
                  
-    // QUESTION 6
-    printf("QUESTION 6 RESULT\r\n");
+    // QUESTION 7
+    printf("QUESTION 7 RESULT\r\n");
     tmp = x / y;
     
     if(tmp > 2)
@@ -61,12 +61,11 @@ int main()
     }
     printf("\r\n\r\n");
     
-    // QUESTION 7 BONUS 
+    // QUESTION 8 BONUS 
     char goodbye[10];
-    printf("QUESTION 7 RESULT\r\ntype goodbye\r\n");
+    printf("QUESTION 8 RESULT\r\ntype goodbye\r\n");
     scanf("%s", goodbye); 
     printf("User says \"%s\"\r\n\r\n", goodbye); 
-    
     
     printf("\r\n**** FINAL ****\r\n>>x is %d\r\n>>y is %d\r\n>>a is %f\r\n>>b is %f\r\n\r\n", x, y, a, b);
 

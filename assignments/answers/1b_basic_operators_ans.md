@@ -1,4 +1,4 @@
-# Answer for one set of numbers
+#Try your sets with my code and see if it matches
 ```c
 #include <stdio.h>
 

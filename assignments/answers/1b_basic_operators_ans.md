@@ -1,5 +1,7 @@
 # Answer for one set of numbers
 ```c
+#include <stdio.h>
+
 static void get_int(char* name, int* buff);
 static void get_float(char* name, float* buff);
 

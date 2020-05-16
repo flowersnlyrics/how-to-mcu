@@ -67,7 +67,7 @@ The difference between `&&` and `&` is that `&&` evaluates two operands logicall
 * While `Y = A & B` will return `0xA & 0x0` or `Y = 0x0` because `1 & 0` is `0`.
 
 # Questions
-### Round 1: Assume 8-bit unsigned numbers. Perform these operations with `A` being `60` and `B` being `123`. 
+### Round 1: Assume 8-bit unsigned numbers. Perform these operations with `A` being `60` and `B` being `123`. Give the result in binary, hex and decimal. **ALL BY HAND FOR PRACTICE**
 1.  `A & B`
 2. `A | B`
 3. `A ^ B`
@@ -78,7 +78,7 @@ The difference between `&&` and `&` is that `&&` evaluates two operands logicall
 7. `~B`
 8. `~A`  
 
-### Round 2: Assume 16-bit unsigned numbers. Perform these operations with `A` being `20154` and `B` being `58742`.  
+### Round 2: Assume 16-bit unsigned numbers. Perform these operations with `A` being `20154` and `B` being `58742`.   Give the result in binary, hex and decimal. **ALL BY HAND FOR PRACTICE**
 1.  `A & B`
 10. `A | B`
 3. `A ^ B`

@@ -53,7 +53,8 @@ Let's say that a 4-bit binary number `A` is equal to `4`, which is equal to `0b0
 ## What is the difference between logical and bitwise operators?
 The difference between `||` and `|` is that `||` evaluates two operands logically and returns either `true` or `false`, while `|` acts and changes the variable itself. For example, if `A` is `0xC` and `B` is `0x3`...
 * `A || B` will check if `A` or `B` is non-zero and return `true` because both numbers are non-zero
-* While `Y = A | B` will return `0xC | 0x3` or `Y = 0xF` because `1 | 0` and `1 | 1` both equal `1`
+* While `Y = A | B` will return `0xC | 0x3` or `Y = 0xF` because `1 | 0` and `1 | 1` both equal `1`  
+
 The difference between `&&` and `&` is that `&&` evaluates two operands logically and returns either `true` or `false`, while `&` acts and changes the variable itself. For example, if `A` is `0xA` and `B` is `0x0`...
 * `A && B` will check if `A` and `B` are non-zero and return `false` because both numbers are not non-zero
 * While `Y = A & B` will return `0xA & 0x0` or `Y = 0x0` because `1 & 0` is `0`.

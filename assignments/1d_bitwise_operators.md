@@ -18,9 +18,17 @@ For convenience here are the truth tables for some of the operators. Let the inp
 | `0` | `0`| `0`|
 | `0` | `1`| `1`|
 | `1` | `0`| `1`|
-| `1` | `1`| `0`|
+| `1` | `1`| `1`|
 
 ### **AND Gate `Y = A & B`**
+| **A** | **B** | **Y** | 
+|----|----|---|
+| `0` | `0`| `0`|
+| `0` | `1`| `0`|
+| `1` | `0`| `0`|
+| `1` | `1`| `1`|
+
+### **XOR Gate `Y = A ^ B`**
 | **A** | **B** | **Y** | 
 |----|----|---|
 | `0` | `0`| `0`|
@@ -49,7 +57,6 @@ Let's say that a 4-bit binary number `A` is equal to `4`, which is equal to `0b0
 | `A * 2`  | `A << 1` | `0100 << 1 = 1000 ` |
 | `A / 4`  | `A >> 2` | `1000 >> 2 = 0010` |
 
-
 ## What is the difference between logical and bitwise operators?
 The difference between `||` and `|` is that `||` evaluates two operands logically and returns either `true` or `false`, while `|` acts and changes the variable itself. For example, if `A` is `0xC` and `B` is `0x3`...
 * `A || B` will check if `A` or `B` is non-zero and return `true` because both numbers are non-zero
@@ -60,5 +67,24 @@ The difference between `&&` and `&` is that `&&` evaluates two operands logicall
 * While `Y = A & B` will return `0xA & 0x0` or `Y = 0x0` because `1 & 0` is `0`.
 
 # Questions
+### Round 1: Assume 8-bit unsigned numbers. Perform these operations with `A` being `60` and `B` being `123`. 
+1.  `A & B`
+2. `A | B`
+3. `A ^ B`
+3. `A >> 5`
+4. `A << 7`
+5. `B >> 3`
+6. `B << 1`
+7. `~B`
+8. `~A`  
 
+### Round 2: Assume 16-bit unsigned numbers. Perform these operations with `A` being `20154` and `B` being `58742`.  
+1.  `A & B`
+10. `A | B`
+11. `A >> 12`
+12. `A << 9`
+13. `B >> 4`
+14. `B << 7`
+15. `~B`
+16. `~A`
 

@@ -81,6 +81,7 @@ The difference between `&&` and `&` is that `&&` evaluates two operands logicall
 ### Round 2: Assume 16-bit unsigned numbers. Perform these operations with `A` being `20154` and `B` being `58742`.  
 1.  `A & B`
 10. `A | B`
+3. `A ^ B`
 11. `A >> 12`
 12. `A << 9`
 13. `B >> 4`

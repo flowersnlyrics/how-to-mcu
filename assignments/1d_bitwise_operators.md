@@ -35,8 +35,7 @@ For convenience here are the truth tables for some of the operators. Let the inp
 | `1` | `0`| 
 
 ## Shift operations
-Shift operations can be a little tricky when you're first learning them. Think of binary! When you shift something left you are multiplying it by 2 because you are moving it up one binary place. When you shift something right you are dividing it by 2 because you are moving it down one decimal place. Think of a 4-bit binary number.
-**4-bit binary number**
+Shift operations can be a little tricky when you're first learning them. Think of binary! When you shift something left you are multiplying it by 2 because you are moving it up one binary place. When you shift something right you are dividing it by 2 because you are moving it down one decimal place. Think of a 4-bit binary number.  
 | **bit place** | **power of two** | **4-bit representation***|
 | ----| ----| ----|
 | `0` | `2^0` | `0b0001` |

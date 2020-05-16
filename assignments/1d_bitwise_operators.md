@@ -44,6 +44,10 @@ Shift operations can be a little tricky when you're first learning them. Think o
 | `3` | `2^3 = 8` | `0b1000` |
 
 Let's say that a 4-bit binary number `A` is equal to `4`, which is equal to `0b0100`. If you multiply `4` by `2` you get `8`. The binary representation of `8` is `0b1000`. Notice that the multiplication of the number by `2` shifted it one binary place left. As a shift operation this multiplication is represented by `A << 1`.  Now let's divide the number by `4`. Note that `4` is `2^2`, that means when we divide by four we are shifting the binary place *2* places right. The result of `8 / 4` is `2`. The number `2` represented in binary is `0b0010`. Now: from the number `8` (which is `0b1000`) the binary shifts two places to the right. When we divided by `4` we shifted the number *two* places right. This division can also be represented with a shift operation: `A >> 2`. These operations will get a lot more complicated, but knowing the basics will help. 
+| **Math** | **Equivalent shift operation** | **Result** |
+| ----|----|---|
+| `A * 2`  | `A << 1` | `0100 << 1 = 1000 ` |
+| `A / 4`  | `A >> 2` | `1000 >> 2 = 0010` |
 
 
 ## What is the difference between logical and bitwise operators?

@@ -1,5 +1,5 @@
 # Bitwise Operators 
-It's important that you do these exercises on paper before checking them with the online C compiler (or `1_uart_printf`). C has operators that can perform bit manipulation on variables, which comes in handy in a lot of embedded applications. For the submission of this application learn how to integrate the a picture of the handwritten work into your markdown submission. Also submit the code you wrote to double check your answers. It's important to understand bitwise operations before we move on because its a good part of the foundation. 
+It's important that you do these exercises on paper before checking them with the online C compiler (or `1_uart_printf`). C has operators that can perform bit manipulation on variables, which comes in handy in a lot of embedded applications. For the submission of this application learn how to integrate the a picture of the handwritten work into your markdown submission. Also submit the code you wrote to double check your answers. It's important to understand bitwise operations before we move on because its a critical part of the foundation. 
 
 | **Operator** | **Description** |  
 |----|----|

@@ -1,3 +1,0 @@
-# Bitwise Operators 
-
-# Questions

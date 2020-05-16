@@ -38,10 +38,10 @@ For convenience here are the truth tables for some of the operators. Let the inp
 Shift operations can be a little tricky when you're first learning them. Think of binary! When you shift something left you are multiplying it by 2 because you are moving it up one binary place. When you shift something right you are dividing it by 2 because you are moving it down one decimal place. Think of a 4-bit binary number.  
 | **bit place** | **power of two** | **4-bit representation***|
 | ----| ----| ----|
-| `0` | `2^0 = 1` | `0b0001` |
-| `1` | `2^1 = 2` | `0b0010` |
-| `2` | `2^2 = 4` | `0b0100` |
-| `3` | `2^3 = 8` | `0b1000` |
+| `0` | `2^0 = 1` | `0001` |
+| `1` | `2^1 = 2` | `0010` |
+| `2` | `2^2 = 4` | `0100` |
+| `3` | `2^3 = 8` | `1000` |
 
 Let's say that a 4-bit binary number `A` is equal to `4`, which is equal to `0b0100`. If you multiply `4` by `2` you get `8`. The binary representation of `8` is `0b1000`. Notice that the multiplication of the number by `2` shifted it one binary place left. As a shift operation this multiplication is represented by `A << 1`.  Now let's divide the number by `4`. Note that `4` is `2^2`, that means when we divide by four we are shifting the binary place *2* places right. The result of `8 / 4` is `2`. The number `2` represented in binary is `0b0010`. Now: from the number `8` (which is `0b1000`) the binary shifts two places to the right. When we divided by `4` we shifted the number *two* places right. This division can also be represented with a shift operation: `A >> 2`. These operations will get a lot more complicated, but knowing the basics will help. 
 | **Math** | **Equivalent shift operation** | **Result** |

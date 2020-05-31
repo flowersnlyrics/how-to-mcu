@@ -36,7 +36,7 @@ Remainder method: Divide the number by 2 continuously until you get to 0. The re
 Result: 110 0100
  
 ### Hexadecimal Numbering System  
-Hexadecimal is a base 16 numbering system, and is often used to represent long binary numbers because the format is compact and easier to understand than a long binary string. Hex consists of 16 number symboles, 0 through 15. Becuase there could be confusion between the number systems, hex uses letters to identify the values of 10 to 15 i.e. A, B, C, D, E, and F respectively.  
+Hexadecimal is a base 16 numbering system, and is often used to represent long binary numbers because the format is compact and easier to understand than a long binary string. Hex consists of 16 number symbols, 0 through 15. Becuase there could be confusion between the number systems, hex uses letters to identify the values of 10 to 15 i.e. A, B, C, D, E, and F respectively.  
 *Fun Fact:* Hexadecimal Numbers is a more complex system than using just binary or decimal and is mainly used when dealing with computers and memory address locations.  
 
 As mentioned, long binary strings are often grouped in sets of 4 bits. In relation to hex, this allows a min of 0 (0000) and max of 15 (1111). So each digit in hex represents a nibble in binary.
@@ -66,8 +66,36 @@ As mentioned, long binary strings are often grouped in sets of 4 bits. In relati
 0110 0100 = 0x64  
 
 ### Two's Compliment  
-Pending...  
+Two's complement is used for signed Binary number representation and allows a computer to add and subtract numbers using the same operations (no need for adders and subtractors. Two's compliment notatin is:  
+- A fixed number of bits are used to represent numbers  
+- The most significant bit is called the sign bit (indicating positive (0) and negative (1))  
+- The notation is used to represent psitive and negative numbers.  
+  
+Positive numbers are represented as simple Binary representation. But if the number is negative, then it is represented using 2’s complement.  
+
+**Positive Numbers**  
+Positive numebrs represented normally:  
+Using a 4 bit representation 7: **0111**  
+Using an 8 bit representation 15: **0000 1111**
+
+**Negative Numbers**  
+To obtain the 2's complement of a number:  
+1. Complement the bits  
+2. Add one to the result  
+
+|+7|0111|  
+|:---|:---|  
+|compliment|1000|  
+|add 1|0001|  
+|-7|1001|  
+
+|+15|01111|  
+|:---|:---|
+|compliment|10000|  
+|add 1|00001|  
+|-15|10001|  
   
 # References
 *  [Computer Hope - Binary](https://www.computerhope.com/jargon/b/binary.htm)
 *  [Electronics Tutorials](https://www.electronics-tutorials.ws/binary/bin_3.html)
+*  [Two's Compliment Notation](https://www.ele.uri.edu/courses/ele447/proj_pages/divid/twos.html)

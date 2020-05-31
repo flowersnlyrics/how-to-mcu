@@ -97,9 +97,9 @@ To obtain the 2's complement of a number:
 
 # Questions 
 1. Convert -10567<sub>10</sub> to 12-bit two's complement.  Double check the word by converting it back. 
-2. Convert 4790<sub>10</sub> to binary and hexidecimal.  
+2. Convert 4790<sub>10</sub> to binary and hexidecimal. Double check the word by converting it back. 
 3. Write -675<sub>10</sub> in 10-bit two's complement.  Double check the word by converting it back. 
-4. Convert the number 25<sub>10</sub> to binary and hexidecimal.  
+4. Convert the number 25<sub>10</sub> to binary and hexidecimal.  Double check the word by converting it back. 
 5. Convert 10101011110011011110<sub>2</sub> to hexidecimal. 
 6. Convert 10101001<sub>2</sub> to decimal. 
   

@@ -94,6 +94,14 @@ To obtain the 2's complement of a number:
 |compliment|10000|  
 |add 1|00001|  
 |-15|10001|  
+
+# Questions 
+1. Convert -10567<sub>10</sub> to 12-bit two's complement.
+2. Convert 4790<sub>10</sub> to binary and hexidecimal.
+3. Write -675<sub>10</sub> in 10-bit two's complement.
+4. Convert the number 25<sub>10</sub> to binary and hexidecimal.
+5. Convert 10101011110011011110<sub>2</sub> to hexidecimal. 
+6. Convert 10101001<sub>2</sub> to decimal. 
   
 # References
 *  [Computer Hope - Binary](https://www.computerhope.com/jargon/b/binary.htm)

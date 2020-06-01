@@ -1,4 +1,4 @@
-
+# Check answers against mine
 1. Convert -10567<sub>10</sub> to 16-bit two's complement.  Double check the word by converting it back. ![question_1](img/1c_no1_ans.jpg)
 2. Convert 4790<sub>10</sub> to binary and hexidecimal. Double check the word by converting it back.  ![question_2](img/1c_no2_ans.jpg)
 3. Write -675<sub>10</sub> in 16-bit two's complement.  Double check the word by converting it back.  ![question_3](img/1c_no3_ans.jpg)  

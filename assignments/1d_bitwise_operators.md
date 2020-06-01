@@ -3,7 +3,7 @@ It's important that you do these exercises on paper before checking them with th
 
 | **Operator** | **Description** |  
 |----|----|
-| `&` | The AND operator. Operates like and AND Gate. | 
+| `&` | The AND operator. Operates like an AND Gate. | 
 | `\|\|` | The OR operator. Operates like an OR Gate. | 
 | `^` | The XOR operator. Operates like an XOR Gate. | 
 | `~` | The NOT operator. Operates like a NOT gate (inverter).  | 

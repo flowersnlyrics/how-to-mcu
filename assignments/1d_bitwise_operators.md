@@ -89,3 +89,4 @@ The difference between `&&` and `&` is that `&&` evaluates two operands logicall
 15. `~B`
 16. `~A`
 
+### Round 3: Write C code to double check your answers. Post the C code with your submission

@@ -1,4 +1,6 @@
 # Check your answers against mine
+The page numbers are off by 1 sorry that's my bad  
+
 ![questions_page2](img/1d_ans_page2.PNG)
 ![questions_page3](img/1d_ans_page3.PNG)
 ![questions_page4](img/1d_ans_page4.PNG)

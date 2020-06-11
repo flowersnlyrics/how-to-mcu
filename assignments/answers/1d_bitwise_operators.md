@@ -1,5 +1,9 @@
 # Check your answers against mine
-The page numbers are off by 1 sorry that's my bad  
+
+### Handwritten mistakes SORRY
+  - The page numbers are off by 1 sorry that's my bad  
+  - Round one number two should be **127** NOT 128
+  - Round 1 i got 8 and 9 mixed up 
 
 ![questions_page2](img/1d_ans_page2.PNG)
 ![questions_page3](img/1d_ans_page3.PNG)

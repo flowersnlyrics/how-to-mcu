@@ -53,13 +53,13 @@ static void perform_round(uint8_t round_num, uint16_t A, uint16_t B,
     
     if(num_bits == 8)
     {
-     printf("7. ~A = %u (0x%x)\r\n", (uint8_t)~A, (uint8_t)~A);
-     printf("8. ~B = %u (0x%x)\r\n", (uint8_t) ~B, (uint8_t)~B);
+     printf("8. ~A = %u (0x%x)\r\n", (uint8_t)~A, (uint8_t)~A);
+     printf("9. ~B = %u (0x%x)\r\n", (uint8_t) ~B, (uint8_t)~B);
     }
     else if(num_bits == 16)
     {
-     printf("7. ~A = %u (0x%x)\r\n", (uint16_t)~A, (uint16_t)~A);
-     printf("8. ~B = %u (0x%x)\r\n", (uint16_t) ~B, (uint16_t)~B);
+     printf("8. ~A = %u (0x%x)\r\n", (uint16_t)~A, (uint16_t)~A);
+     printf("9. ~B = %u (0x%x)\r\n", (uint16_t) ~B, (uint16_t)~B);
     }
    
     printf("\r\n\r\n");

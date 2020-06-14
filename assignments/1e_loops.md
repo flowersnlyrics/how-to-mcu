@@ -72,7 +72,7 @@ do
   printf("Please press the button!\r\n"); 
 } while(!button_pressed); 
 ```
-I honestly think do-while loops are underrated. The alternative to the above do-while loop is redundant and ugly (in my *opinion*). What if some yahoo comes in to edit your code later and only changes one of the two print statements. Unsolicited piece of advice: if you're copy-pastaing code it's spaghetti! But really, if you find yourself Ctrl-C and Ctrl-Ving a lot stop, pause, Google, reflect. There must be a better way to do it! 
+I honestly think do-while loops are underrated. The alternative to the above do-while loop is redundant and ugly (in my *opinion*). What if some yahoo comes in to edit your code later and only changes one of the two print statements. Unsolicited piece of advice: if you're copy-pastaing code it's spaghetti! But really, if you find yourself Ctrl-C and Ctrl-Ving a lot (been there, done that) stop, pause, Google, reflect. There must be a better way to do it! 
 ```c
 printf("Please press the button!\r\n");
 while(!button_pressed)

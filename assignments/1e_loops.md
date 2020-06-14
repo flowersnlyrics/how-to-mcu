@@ -86,7 +86,7 @@ Loops that go on forever, and ever and ever and ever and ever andddd evvvveeeeer
 
 ### Infinite while loop
 
-The number `1` will always be true. The only way to break an inifinite loop is to use the keyword `break` inside somewhere. For the sake of consistency let's keep using the button example. This loop will forever bug the user to press the button, until the user actually does press the button in which case it will `break` out of the loop and say goodbye. 
+The number `1` will always be true, because *it is* `true`. The only way to break an inifinite loop is to use the keyword `break` inside somewhere. For the sake of consistency let's keep using the button example. This loop will forever bug the user to press the button, until the user actually does press the button in which case it will `break` out of the loop and say goodbye. 
 ```c
 while(1)
 {
